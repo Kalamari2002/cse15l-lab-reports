@@ -21,3 +21,5 @@
 3. c
 
 ---
+
+`Inline code`
