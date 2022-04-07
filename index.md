@@ -24,5 +24,7 @@
 
 `Inline code`
 
+```
 # code block
 print 'helo word'
+```
