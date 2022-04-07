@@ -6,7 +6,7 @@
 
 **Bold at 20**
 
-[Link](https://theuselessweb.com/)
+[waste your time here](https://theuselessweb.com/)
 
 ![Image](https://static.tvtropes.org/pmwiki/pub/images/eb_electro_specter_sprite.png)
 
