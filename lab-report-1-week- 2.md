@@ -14,7 +14,7 @@ This is the first entry of my lab reports, in which I will go over how to log in
 VScode is a popular code editor which we'll be using for this course and can be installed [here](https://code.visualstudio.com/). Upon clicking the link, the user should see a blue download button and install the version compatible with their device.
 <br>
 <br>
-![Image](installingvscode.png)
+![Image](screenshots/installingvscode.png)
 <br>
 ***
 
