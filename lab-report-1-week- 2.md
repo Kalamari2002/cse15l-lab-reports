@@ -16,7 +16,6 @@ VScode is a popular code editor which we'll be using for this course and can be 
 <br>
 ![Image](installingvscode.png)
 <br>
-<br>
 ***
 
 ## Remotely connecting
@@ -32,7 +31,6 @@ After typing the line above and inserting the user's password, they will be conn
 <br>
 ![Image](remotelyconnecting.png)
 ***
-<br>
 <br>
 
 ## Experimenting with commands
@@ -52,7 +50,6 @@ To get more comfortable with the new environment and Unix in general, it's good 
 ![image](commands1.png)
 ***
 <br>
-<br>
 
 ## Moving files with scp
 
@@ -67,7 +64,6 @@ The user will be asked to log in once again. After logging in with their course-
 <br>
 ![Image](securecontainprotect.png)
 ***
-<br>
 <br>
 
 ## Setting an SSH Key
@@ -98,7 +94,6 @@ After these steps, the user will be able to log in and access the remote compute
 <br>
 
 ![Image](sshtwo.png)
-<br>
 <br>
 ***
 
