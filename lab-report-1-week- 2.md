@@ -29,7 +29,7 @@ ssh cs15lsp22zz@ieng6.ucsd.edu
 After typing the line above and inserting the user's password, they will be connected to the remote computer.
 <br>
 <br>
-![Image](remotelyconnecting.png)
+![Image](screenshots/remotelyconnecting.png)
 ***
 <br>
 
@@ -47,7 +47,7 @@ To get more comfortable with the new environment and Unix in general, it's good 
 <br>
 `mkdir` -> make directory, creates a new directory
 
-![image](commands1.png)
+![image](screenshots/commands1.png)
 ***
 <br>
 
@@ -62,7 +62,7 @@ scp [file] cs15lsp22zz@ieng6.ucsd.edu:~/
 The user will be asked to log in once again. After logging in with their course-specific credentials, the file will be saved in the remote computer from their local device.
 <br>
 <br>
-![Image](securecontainprotect.png)
+![Image](screenshots/securecontainprotect.png)
 ***
 <br>
 
@@ -74,7 +74,7 @@ ssh-keygen
 ```
 When asked if they would like to add a paraphrase, the user should not enter anything for now.
 <br>
-![Image](sshone.png)
+![Image](screenshots/sshone.png)
 <br>
 <br>
 Then, the user should create a repository in the remote computer to transfer the key to with:
@@ -93,7 +93,7 @@ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authori
 After these steps, the user will be able to log in and access the remote computer without having to type their password everytime.
 <br>
 
-![Image](sshtwo.png)
+![Image](screenshots/sshtwo.png)
 <br>
 ***
 
@@ -107,7 +107,7 @@ ssh cs15lsp22zz@ieng6.ucsd.edu "ls"
 
 <br>
 
-![Image](shortcuts.png)
+![Image](screenshots/shortcuts.png)
 
 Using the up arrow will also input the last used command in the prompt. The user can use up arrow to access previous command lines without having to retype everything.
 ***
