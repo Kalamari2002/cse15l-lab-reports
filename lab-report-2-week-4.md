@@ -23,7 +23,7 @@ Another symptom I ran into while testing the first version of the code on the [l
 ![loopsymptom](screenshots/lab-report2/loopsymptom.png)
 <br>
 <br>
-Lilian Ma, along with several other groupmates, encountered the same error while testing the parser. This prompted the following change to the code:
+[Lilian Ma](https://github.com/lilianjma/markdown-parser/commit/77eb11fbe22a14033f7edb83d142a585e50a0089), along with several other groupmates, encountered the same error while testing the parser. This prompted the following change to the code:
 <br>
 <br>
 ![lilianchange](screenshots/lab-report2//lilianchange.png)
