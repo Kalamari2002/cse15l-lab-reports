@@ -1,4 +1,4 @@
-# Lab report week 2 
+# Lab Report Week 2 
 **April 10, 2022**
 
 This is the first entry of my lab reports, in which I will go over how to log into a course-specific account on ieng6. Below are the summarized steps that will be covered in this report:
