@@ -20,6 +20,8 @@ This also means that transfering files with `scp` is much easier, because we can
 ![secure](./screenshots/lab-report3/securecontainprotect.png)
 <br>
 <br>
+We also went over how to use ssh keys in the remote computer, this way, we would be able to commit and push projects from the remote computer. Unfortunately, I struggled quite a bit trying to set this step up and could not figure out how to get it to work.
+
 Another useful command we learned is `scp -r`, which allows the user to recursively copy a directory from the local to the remote computer. In the example below, I copied the markdown parser directory from my laptop to the remote computer:
 <br>
 <br>
