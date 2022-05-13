@@ -20,7 +20,26 @@ This also means that transfering files with `scp` is much easier, because we can
 ![secure](./screenshots/lab-report3/securecontainprotect.png)
 <br>
 <br>
-We also went over how to use ssh keys in the remote computer, this way, we would be able to commit and push projects from the remote computer. Unfortunately, I struggled quite a bit trying to set this step up and could not figure out how to get it to work.
+We also went over how to use ssh keys in the remote computer. We begin by creating a keygen like normally, however, we can do this in the remote computer using the `ssh-keygen` command. A key pair should be stored in the remote computer after inputting the command. In this example, both private and public keys are stored in the same directory:
+<br>
+<br>
+![keylocation](./screenshots/lab-report3/keygen.png)
+<br>
+<br>
+Then, the user should include the public key content in their account. This can be done by clicking their profile > settings > SSH and GPG keys > New SSH key. After pasting the public key's content onto the "key" box and giving the key a title, the user may store it on Github:
+<br>
+<br>
+![keyrepository](./screenshots/lab-report3/repositorylocation.png)
+<br>
+<br>
+Finally, the user should be able to commit and push from the remote computer to any repository.
+<br>
+<br>
+![push](./screenshots/lab-report3/commitpush.png)
+<br>
+<br>
+This is the [link](https://github.com/Kalamari2002/skill-demo/commit/ff024753693b461e3a1093e0332c22f20dcc8b0c) to the commit shown in the example above, where I added the "text.txt" file to my repository.
+
 
 Another useful command we learned is `scp -r`, which allows the user to recursively copy a directory from the local to the remote computer. In the example below, I copied the markdown parser directory from my laptop to the remote computer:
 <br>
