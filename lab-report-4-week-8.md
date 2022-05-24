@@ -97,3 +97,5 @@ The only snippet whose results differed was snippet 1, in which the only detecte
 ```
 ucsd.edu
 ```
+
+I think that I could make my version work for snippet 1 by specifying that brackets enclosed by backticks should not be counted as formatted links. This is a relatively small change which should not take more than 10 lines of code to implement.
