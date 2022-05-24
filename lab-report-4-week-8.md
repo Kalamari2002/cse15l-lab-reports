@@ -86,3 +86,14 @@ is not followed by parentheses. This same flaw may also explain why
 [some escaped \[ brackets \]](example.com)
 ```
 are incomplete, with "a.com(())" being read as "a.com((" and "example.com" not being read at all. Finally, my version of the code does not seem to handle any type of white space well, as none of the links included in snippet 3 were read by my parser. There's a part of my code that is causing any content in parentheses to be skipped with the inclusion of white spaces.
+
+The result produced by our peer's code was not too different from my version:
+<br>
+<br>
+![peerresult](./screenshots/lab-report4/otherresult.png)
+<br>
+<br>
+The only snippet whose results differed was snippet 1, in which the only detected link was
+```
+ucsd.edu
+```
