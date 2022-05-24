@@ -99,3 +99,8 @@ ucsd.edu
 ```
 
 I think that I could make my version work for snippet 1 by specifying that brackets enclosed by backticks should not be counted as formatted links. This is a relatively small change which should not take more than 10 lines of code to implement.
+
+As for the second snippet, I don't think I would be able to create a solution within 10 lines. My version of the code does not address nested links to any degree and I get the impression that I would need to specify these edge cases, as small changes to already existing code would likely not be enough to fix them. More specifically, I would need to find a way to count only the inner links in a nested link and allow my code to include closing parantheses.
+
+Finally, the third snippet, I imagine, could be fixed with a relatively smaller change. I would need to remove the specification that disables the parser to count content followed by "\n" as links. However, I need to be careful not to create other edge case vulnerabilities in trying to fix this one.
+
