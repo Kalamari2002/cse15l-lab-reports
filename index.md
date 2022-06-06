@@ -9,3 +9,5 @@
 [Lab Report Week 6](https://kalamari2002.github.io/cse15l-lab-reports/lab-report-3-week-6.html)
 <br>
 [Lab Report Week 8](https://kalamari2002.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
+<br>
+[Lab Report Week 10](https://kalamari2002.github.io/cse15l-lab-reports/lab-report-5-week-10.html)
